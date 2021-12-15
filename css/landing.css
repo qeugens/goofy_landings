@@ -1,0 +1,8 @@
+body {
+  background: #222222;
+}
+.landing_first {
+  width: 100%;
+  height: 902px;
+  background: linear-gradient(#9393E4, #222222); 
+}
