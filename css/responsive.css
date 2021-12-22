@@ -1,0 +1,128 @@
+@media screen and (max-width: 1000px){
+   .globus_big {
+     display: none;
+   }
+   .globus_medium {
+     display: block;
+   }
+   .main_logo {
+     display: none;
+   }
+   .main_logo_medium {
+     display: block;
+   }
+   .photo_globus_big {
+     display: none;
+   }
+   .photo_globus_medium {
+     display: block;
+   }
+   .third_graf_big {
+     display: none;
+   }
+   .third_graf_medium {
+     display: block;
+   }
+   .third_graf {
+     margin: -400px 600px;
+   }
+   .pro_graf_big {
+     display: none
+   }
+   .pro_graf_medium {
+     display: block;
+   }
+   .forth_call {
+     width: 1000px;
+     height: 557px;
+     background-image: url(../images/forth_call_medium.png);
+   }
+   .first_call p {
+     font-size: 38px;
+     left: 42%;
+   }
+   .first_text {
+     left: 40%;
+   }
+   .first_call button {
+     left: 33%;
+   }
+   .third_text {
+     width: 820px;
+     font-size: 38px;
+   }
+   .questions {
+     width: 80%;
+   }
+   .questions p {
+     font-size: 28px;
+     line-height: 35px;
+     width: 180px;
+   }
+   .second_p {
+     font-size: 38px;
+     width: 745px;
+   }
+   .photo_globus_medium {
+     margin-left: -155px;
+   }
+   .globus_pros {
+     width: 332px;
+     margin-left: 40px;
+     margin-top: -650px;
+   }
+   .globus_pros p {
+     font-size: 28px;
+   }
+   .tabloids {
+     width: 90%;
+   }
+   .tabloid_bold {
+     font-size: 65px;
+   }
+   .tabloid_light {
+     font-size: 25px;
+     width: 269px;
+   }
+   .width_tab {
+     width: 431px;
+   }
+   .third_p {
+     font-size: 38px;
+     width: 547px;
+   }
+   .third_graf_medium {
+     margin: 100px 30px;
+   }
+   h1 {
+     font-size: 65px;
+   }
+   .pro_text p {
+     font-size: 28px;
+     width: 500px;
+     margin-top: 80px;
+   }
+   .forth_call h1 {
+     width: 629px;
+   }
+   .forth_call p {
+     font-size: 38px;
+   }
+ }
+
+
+
+ /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+   .globus_big {
+     display: none;
+   }
+   .globus_medium {
+     display: none;
+   }
+   .globus_little {
+     display: block;
+   }
+   .third_text {
+     font-size: 16px;
+   }
+} */

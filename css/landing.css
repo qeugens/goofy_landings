@@ -73,6 +73,30 @@ h2 {
   left: 50%;
   margin-left: -20%;
 }
+.globus_medium {
+  display: none;
+  margin: 0 auto;
+}
+.globus_little {
+  display: none;
+  margin: 0 auto;
+}
+.main_logo_medium {
+  display: none;
+  position: absolute;
+  margin: 0px auto;
+  top: 320px;
+  text-align: center;
+  left: 5%;
+}
+.main_logo_little {
+  display: none;
+  position: absolute;
+  margin: 0px auto;
+  top: 320px;
+  text-align: center;
+  left: 50%;
+}
 .first_call p {
   font-family: 'LightOblique';
   font-size: 50px;
@@ -84,7 +108,7 @@ h2 {
   left: 50%;
   top: 470px;
 }
-.seconds_text {
+.second_text {
   top: 530px;
   width: 576px;
   left: 50%;
@@ -114,7 +138,7 @@ h2 {
   flex-direction: row;
   width: 90%;
   margin: 250px auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 .questions p {
   font-family: 'LightOblique';
@@ -122,7 +146,6 @@ h2 {
   line-height: 45px;
   color: #F8F5F1;
   width: 250px;
-  margin: 0 100px;
 }
 .label_big {
   width: 600px;
@@ -149,10 +172,18 @@ h2 {
   margin-top: 80px;
 }
 .photo_globus {
-  width: 1404px;
-  margin-top: 270px;
-  margin-left: auto;
-  margin-right: 0px;
+  display: block;
+  margin-top: 300px;
+  margin-left: 110px;
+}
+.photo_globus_big {
+  display: block;
+}
+.photo_globus_medium {
+  display: none;
+}
+.photo_globus_little {
+  display: none;
 }
 .globus_pros {
   display: flex;
@@ -234,6 +265,15 @@ h2 {
 .third_graf {
   margin: -400px 960px;
 }
+.third_graf_big {
+  display: block;
+}
+.third_graf_medium {
+  display: none;
+}
+.third_graf_little {
+  display: none;
+}
 .pro_text {
   margin-left: 78px;
 }
@@ -250,6 +290,15 @@ h2 {
   margin-top: -400px;
   margin-left: auto;
   margin-right: 0px;
+}
+.pro_graf_big {
+  display: block;
+}
+.pro_graf_medium {
+  display: none;
+}
+.pro_graf_little {
+  display: none;
 }
 .forth_call {
   width: 1440px;
