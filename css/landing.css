@@ -2,8 +2,8 @@ body {
   background: #222222;
 }
 button {
-  width: 350px;
-  height: 50px;
+  width: 320px;
+  height: 60px;
   background-color: #F8F5F1;
   border-radius: 50px;
   border: none;
@@ -16,6 +16,18 @@ button:hover {
   border: 4px solid #F8F5F1;
   color: #F8F5F1;
   transition: .4s;
+}
+h1 {
+  font-family: 'Bold';
+  font-size: 85px;
+  line-height: 80px;
+  color: #F8F5F1;
+}
+h2 {
+  font-family: 'Bold';
+  font-size: 20px;
+  line-height: 43px;
+  color: #F8F5F1;
 }
 .landing_first {
   width: 100%;
@@ -83,7 +95,7 @@ button:hover {
   top: 700px;
   left: 40%;
 }
-.landing_second img {
+.peace {
   transform: rotate(30deg);
   margin-left: 80%;
   padding-top: 40px;
@@ -111,4 +123,190 @@ button:hover {
   color: #F8F5F1;
   width: 250px;
   margin: 0 100px;
+}
+.label_big {
+  width: 600px;
+  margin: -140px auto;
+}
+.second_call {
+  width: 100%;
+  height: 1244px;
+  margin-top: -420px;
+  background: linear-gradient(#222222, #4E81CC, #87CEFA, #4E81CC, #222222);
+}
+.second_p {
+  font-family: 'LightOblique';
+  font-size: 50px;
+  line-height: 60px;
+  color: #F8F5F1;
+  width: 863px;
+  padding-top: 450px;
+  margin-left: 144px;
+  vertical-align: middle;
+}
+.second_call button {
+  margin-left: 144px;
+  margin-top: 80px;
+}
+.photo_globus {
+  width: 1404px;
+  margin-top: 270px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.globus_pros {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 443px;
+  height: 463px;
+  margin-top: -720px;
+  margin-left: 220px;
+}
+.globus_pros p {
+  font-family: 'Light';
+  font-size: 30px;
+  line-height: 35px;
+  color: #F8F5F1;
+}
+.tabloids {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  padding-top: 950px;
+  margin: 0px auto;
+}
+.tabloid {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+.tabloid_bold {
+  font-family: 'Bold';
+  font-size: 85px;
+  line-height: 75px;
+  color: #F8F5F1;
+  text-align: center;
+}
+.tabloid_light {
+  font-family: 'Light';
+  font-size: 30px;
+  line-height: 35px;
+  padding-top: 66px;
+  width: 360px;
+  color: #F8F5F1;
+  text-align: center;
+}
+.padding {
+  padding-top: 136px;
+}
+.mini_globus {
+  width: 184px;
+  margin: -70px auto;
+}
+.width_tab {
+  width: 575px;
+}
+.no_margin {
+  margin-top: -800px;
+}
+.third_call {
+  margin-top: -500px;
+  width: 100%;
+  height: 762px;
+  background: linear-gradient(#222222, #8B3E39, #E9744E, #8B3E39, #222222);
+}
+.third_p {
+  font-family: 'LightOblique';
+  font-size: 50px;
+  line-height: 60px;
+  color: #F8F5F1;
+  width: 863px;
+  padding-top: 230px;
+  margin-left: 144px;
+  vertical-align: middle;
+}
+.third_call button {
+  margin-left: 144px;
+  margin-top: 80px;
+}
+.third_graf {
+  margin: -400px 960px;
+}
+.pro_text {
+  margin-left: 78px;
+}
+.pro_text p {
+  font-family: 'Light';
+  font-size: 30px;
+  line-height: 35px;
+  width: 647px;
+  color: #F8F5F1;
+  margin-top: 115px;
+}
+.pro_graf {
+  width: 353px;
+  margin-top: -400px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.forth_call {
+  width: 1440px;
+  height: 673px;
+  margin: 123px auto;
+  background-image: url(../images/forth_call.png);
+}
+.forth_call h1 {
+  width: 864px;
+  padding-top: 113px;
+  padding-left: 78px;
+}
+.forth_call p {
+  font-family: 'LightOblique';
+  font-size: 50px;
+  line-height: 50px;
+  color: #F8F5F1;
+  padding-left: 432px;
+}
+.forth_call button {
+  margin: 121px 72px;
+}
+.main_footer {
+  font-family: 'Light';
+  font-size: 30px;
+  line-height: 35px;
+  color: #F8F5F1;
+  text-align: center;
+  width: 932px;
+  margin: 0 auto;
+}
+.footer h2 {
+  text-align: center;
+  margin: 96px auto;
+}
+.footer_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 675px;
+}
+.f_text {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 78px;
+}
+.f_bold {
+  font-family: 'Bold';
+  font-size: 20px;
+  line-height: 43px;
+  color: #F8F5F1;
+  margin-bottom: 10px;
+}
+.f_light {
+  font-family: 'LightOblique';
+  font-size: 20px;
+  line-height: 35px;
+  color: #F8F5F1;
+  width: 208px;
 }
