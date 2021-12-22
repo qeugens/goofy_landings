@@ -1,1 +1,28 @@
-
+.sidebar {
+  position: fixed;
+  margin-top: 20px;
+}
+.sidebar a {
+  text-decoration: none;
+  font-family: 'Light';
+  font-size: 24px;
+  line-height: 32px;
+  color: #F8F5F1;
+  transition: .3s ease;
+}
+.sidebar a:hover {
+  color: #9393E4;
+  transition: .3s ease;
+}
+.first_screen_text {
+  position: absolute;
+  right: 122px;
+  top: 410px;
+}
+.first_screen_text p {
+  font-family: 'LightOblique';
+  font-size: 24px;
+  line-height: 48px;
+  color: #F8F5F1;
+  margin: -40px 10px;
+}
