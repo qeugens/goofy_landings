@@ -1,12 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+h3 {
+  font-family: 'LightOblique';
+  font-size: 40px;
+  color: #F8F5F1;
+}
+h4 {
+  font-family: 'Light';
+  font-size: 20px;
+  line-height: 30px;
+  color: #F8F5F1;
+  margin-top: 40px;
+}
 .sidebar {
   position: fixed;
   margin-top: 20px;
+  margin-left: -15px;
 }
 .sidebar a {
   text-decoration: none;
   font-family: 'Light';
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
   color: #F8F5F1;
   transition: .3s ease;
 }
@@ -25,4 +41,57 @@
   line-height: 48px;
   color: #F8F5F1;
   margin: -40px 10px;
+}
+.concept {
+  margin: 183px 150px;
+}
+.concept_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1224px;
+  margin-top: 130px;
+}
+.base {
+  display: flex;
+  flex-direction: column;
+}
+.concept h4 {
+  width: 574px;
+}
+.manifest {
+  margin-top: 152px;
+}
+.logo_text {
+  margin-left: 720px;
+}
+.logo_text h4 {
+  width: 300px;
+}
+.logotypes {
+  text-align: center;
+  margin: 210px auto;
+
+}
+.logotype_middle {
+  margin-top: 20px;
+}
+.logotype_little {
+  margin-top: 20px;
+}
+.logotype_dark{
+  width: 100%;
+  height: 515px;
+  background-color: #F8F5F1;
+}
+.logotype_dark h3 {
+  color: #222222;
+}
+.logotype_dark img {
+  display: block;
+  margin: 120px auto;
+}
+.logotype_dark h3 {
+  margin-left: 150px;
+  padding-top: 78px;
 }

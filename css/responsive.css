@@ -111,18 +111,28 @@
  }
 
 
-/* 
- @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+ @media only screen and (max-device-width: 480px) {
    .globus_big {
      display: none;
    }
    .globus_medium {
-     display: none;
-   }
-   .globus_little {
      display: block;
+     padding-top: 120px;
    }
    .third_text {
-     font-size: 16px;
+     font-size: 32px;
    }
-} */
+   .menubar {
+     display: none;
+   }
+   h1 {
+     font-size: 65px;
+   }
+   .tabloid_bold {
+     font-size: 95px;
+   }
+  .second_p {
+    font-size: 48px;
+  }
+}
