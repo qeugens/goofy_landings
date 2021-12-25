@@ -1,5 +1,7 @@
 body {
   background: #222222;
+  width: 100vw;
+  overflow-x: hidden;
 }
 button {
   width: 320px;
