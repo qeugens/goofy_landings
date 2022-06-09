@@ -61,7 +61,7 @@ body {
   margin-top: 152px;
 }
 .logo_text {
-  margin-left: 720px;
+  margin-left: 252px;
 }
 .logo_text h4 {
   width: 300px;
@@ -69,7 +69,6 @@ body {
 .logotypes {
   text-align: center;
   margin: 210px auto;
-
 }
 .logotype_middle {
   margin-top: 20px;
@@ -140,7 +139,7 @@ body {
   margin-left: 252px;
 }
 .typography {
-  margin: 120px 720px;
+  margin: 120px 252px;
 }
 .fonts {
   width: 1100px;
@@ -486,39 +485,46 @@ body {
   margin-top: 150px;
   margin-left: 180px;
 }
-/*
-.extra_g1 {
+.masks {
+  margin-top: 100px;
+}
+.masks img {
+  margin-top: 50px;
+}
+.comp_globus {
+  margin-top: 50px;
+}
+.text_block {
+  margin-top: 50px;
+}
+.symbols h1 {
+  margin-top: 120px;
+}
+.symbols_container {
   display: flex;
   flex-direction: row;
-}
-.cg {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.extra_g1 {
-  width: 60%;
+  width: 1152px;
   margin-top: 60px;
-  margin-left: 144px;
 }
-.extra_g2 {
-  width: 80%;
-  margin-top: 60px;
-  margin-left: 144px;
+.s_frame1 {
+  width: 468px;
+  height: 1888px;
+  border-radius: 20px;
+  background-color: #F8F5F1;
 }
-.extra_g3 {
-  width: 80%;
-  margin-top: 60px;
-  margin-left: 144px;
+.s_frame2 {
+  width: 576px;
+  height: 1888px;
+  border-radius: 20px;
+  background-color: #F8F5F1;
 }
-.cg_text{
-  font-family: 'Light';
-  font-size: 16px;
-  line-height: 24px;
-  color: #F8F5F1;
-  width: 290px;
-} */
-.symbols_heading {
+.s_frame3 {
+  width: 108px;
+  height: 1888px;
+  border-radius: 20px;
+  background-color: #F8F5F1;
+}
+/* .symbols_heading {
   margin: 100px 720px;
 }
 .symbols {
@@ -573,7 +579,7 @@ body {
 }
 .main_photo {
   margin: 60px 720px;
-}
+} */
 .photo_text {
   font-family: 'Light';
   font-size: 20px;
