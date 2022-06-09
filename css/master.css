@@ -3,14 +3,10 @@
 @import "styleguide.css";
 @import "responsive.css";
 @font-face {
-  font-family: 'Light';
-  src: url('../fonts/Light.ttf');
-}
-@font-face {
-  font-family: 'LightOblique';
-  src: url('../fonts/LightOblique.ttf');
+  font-family: 'Regular';
+  src: url('../fonts/regular.otf');
 }
 @font-face {
   font-family: 'Bold';
-  src: url('../fonts/Bold.ttf');
+  src: url('../fonts/bold.ttf');
 }

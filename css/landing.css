@@ -1,5 +1,5 @@
 body {
-  background: #222222;
+  background: #151921;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -51,7 +51,7 @@ h2 {
 }
 .menubar a {
   text-decoration: none;
-  font-family: 'Light';
+  font-family: 'Regular';
   font-size: 20px;
   line-height: 43.5px;
   color: #F8F5F1;
