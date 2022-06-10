@@ -1,0 +1,11 @@
+<svg width="1155" height="727" viewBox="0 0 1155 727" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="1153" height="725" fill="#151921" stroke="#F8F5F1" stroke-width="2"/>
+<path d="M118 522H1106C1117.05 522 1126 530.954 1126 542V673C1126 684.046 1117.05 693 1106 693H138C126.954 693 118 684.046 118 673V522Z" fill="#233156"/>
+<path d="M29 54C29 42.9543 37.9543 34 49 34H98C109.046 34 118 42.9543 118 54V522H49C37.9543 522 29 513.046 29 502V54Z" fill="#B35B58"/>
+<path d="M118 54C118 42.9543 126.954 34 138 34H1106C1117.05 34 1126 42.9543 1126 54V502C1126 513.046 1117.05 522 1106 522H118V54Z" fill="#F8F5F1"/>
+<path d="M29 542C29 530.954 37.9543 522 49 522H118V673C118 684.046 109.046 693 98 693H49C37.9543 693 29 684.046 29 673V542Z" fill="#416552"/>
+<line x1="28" y1="2" x2="28" y2="725" stroke="#F8F5F1" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="2" y1="694" x2="1153" y2="694" stroke="#F8F5F1" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="2" y1="33" x2="1153" y2="33" stroke="#F8F5F1" stroke-width="2" stroke-dasharray="10 10"/>
+<line x1="1127" y1="2" x2="1127" y2="725" stroke="#F8F5F1" stroke-width="2" stroke-dasharray="10 10"/>
+</svg>

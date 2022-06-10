@@ -5,8 +5,20 @@
     <link rel="shortcut icon" href="images/fav.png" type="image/png">
     <link rel="stylesheet" href="css/master.css">
     <title>Стайлгайд</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.burger').click(function(event){
+          $('.sidebar').toggleClass('active');
+        })
+      })
+    </script>
   </head>
   <body>
+    <div class="burger">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
     <div class="sidebar">
       <ul>
         <li><a href="#about">Концепция</a></li>
@@ -15,7 +27,7 @@
         <li><a href="#colours">Цвета</a></li>
         <li><a href="#grid">Сетка</a></li>
         <li><a href="#grafics">Графика</a></li>
-        <li><a href="#photo">Фотки</a></li>
+        <li><a href="#photo">Фотографии</a></li>
         <li><a href="#composition">Композиции</a></li>
         <li><a href="#tone">Tone of voice</a></li>
       </ul>
@@ -138,7 +150,7 @@
 
       <div class="typo_compositon">
         <h3>Типографическая композиция</h3>
-        <img src="images/typo_comp.png" width="1152" height="744" alt="">
+        <img src="images/typo_comp.svg"alt="">
       </div>
 
       <div id="colours">
@@ -179,7 +191,7 @@
           <div class="s_white"></div>
           <div class="s_black"></div>
         </div>
-        <img src="images/contrasts_check.png" class="contrasts_check" width="1153" height="861" alt="">
+        <img src="images/contrasts_check.svg" class="contrasts_check" alt="">
       </div>
       <div class="typo_colours">
         <h3>Типографические сочетания</h3>
@@ -229,14 +241,14 @@
           <img src="images/grid3.png" width="684" height="664" alt="">
         </div>
         <h4 class="last_grid">Сетка позволяет сформировать фоновый паттерн-глобус, как символ глобального движения скейтбординга, объединяющего российский скейтинг <br> с мировым.</h4>
-        <div class="grid_globus"> <img src="images/grid_globus.png" width="1369" height="1004" alt=""> </div>
+        <div class="grid_globus"> <img src="images/grid_globus.svg" alt=""> </div>
       </div>
 
       <div id="grafics">
         <h1 class="extra_g">дополнительная графика</h1>
         <h4>Дополнительная графика – это плашки, населенные графикой и «следы», как следы от колес скейта, которые остаются на асфальте. <br><br>
 Используется как след от цветных плашек <br> на горизонтальных форматах</h4>
-        <img class="extra" src="images/extra.png" width="972" height="303" alt="">
+        <img class="extra" src="images/extra.svg" alt="">
         <div class="masks">
           <h1>маски и фреймы</h1>
           <h4>Для графических композиций используются фреймы как плейсхолдеры для типографики <br>
@@ -247,11 +259,11 @@
 Фреймы так же строятся по сетке <br>
 со скруглением в 20px и отступами 32px. Внутри фрейма скругления отсутствуют.
 Засчёт цветов и композиции Goofy делает отсылку к фирменным стилям Kodak и Palaroid.</h4>
-        <img src="images/masks.png" width="1155" height="727" alt="">
+        <img src="images/masks.svg" alt="">
         </div>
         <h4>Эллипс и глобус поддерживает идею объединения <br> и коммьюнити и помогает нам делать маски <br> и композиционные схемы.</h4>
-        <img class="comp_globus" src="images/comp_globus.png" width="1155" height="727" alt="">
-        <img class="text_block" src="images/text_block.png" width="1155" height="727" alt="">
+        <img class="comp_globus" src="images/comp_globus.svg" alt="">
+        <img class="text_block" src="images/text_block.svg" alt="">
         <div class="symbols">
           <h1>наборы символов</h1>
           <h4>Вся графика может быть использована на носителях только внутри цветных плашек, под маской (если графика больше плашки) или полностью внутри нее. </h4>
@@ -261,7 +273,9 @@
             <div class="s_frame3"></div>
           </div>
           <div class="symbols_fitting">
-            
+            <img class="symbols1 fitting" src="images/symbols1.svg" alt="">
+            <h3>Могут использоваться без рамки </h3>
+            <img class="symbols2 fitting" src="images/symbols2.svg" alt="">
           </div>
         </div>
       </div>
@@ -269,36 +283,33 @@
 
 
       <div id="photo">
-        <h1 class="main_photo">Фотографии</h1>
-        <h4 class="photo_text">На фотографиях изображаются один скейтер, который делает трюк или стоит со свейтбордом, либо группа скейтеров, катающихся или сидящих вместе. Фотографии размещаются в ряд, только по несколько штук, при это они вписываются в сетку. <br><br> Чтобы фотограграфии не выглядели разрозненно, следует наложить на них  один из  фоновых градиентов с эффектом «lighten/замена светлым». </h4>
-        <img src="images/photo1.png" class="photo1" width="1440" height="392" alt="">
-        <img src="images/photo2.png" class="photo2" width="1440" height="392" alt="">
-        <div class="last_photo">
-          <img src="images/photo3.png" class="photo3" width="720" height="392" alt="">
-          <h2 class="on_photo">Бери доску <br> и погнали</h2>
-          <p class="on_photo_flex">Также допускатеся затемнить фотографии, положив поверх 60% тона фирменного черного, и поместить сверху текст</p>
+        <h1 class="main_photo">фотографии</h1>
+        <h4 class="photo_text">На все фотографии накладывается фильтр с голубым оттенком. Настройки: <br><br>
+Цвет – #3A4C7B<br>
+Прозрачность – 20% </h4>
+        <img src="images/photos.png" class="photo1" width="1154" height="1263" alt="">
         </div>
       </div>
 
       <div id="composition">
-        <h1 class="compositon_head">Композиционные схемы</h1>
-        <h4 class="composition_4">Композиции строятся на основе сетки</h4>
-        <img src="images/comp1.png" class="comp" width="1370" height="810" alt="">
-        <img src="images/comp2.png" class="comp" width="1370" height="810" alt="">
-        <img src="images/comp3.png" class="comp" width="1370" height="810" alt="">
+        <h1 class="compositon_head">композиционные схемы</h1>
+        <h4 class="composition_4">Композиции строятся на основе сетки и могут быть либо графические, либо с использованием фотографий.</h4>
+        <img src="images/comp1.svg" class="comp" alt="">
+        <img src="images/comp2.png" class="comp" width="804" height="1205" alt="">
+        <img src="images/comp3.png" class="comp" width="1152" height="198" alt="">
       </div>
 
       <div id="tone">
-        <h1>Tone of voice</h1>
-        <h4 class="last_last">Мы за то, что бы каждый кто хочет кататься на скейте мог делать это легко и совершенствоваться, искать компанию и делаться своим опытом с теми, кто разделяет его взгляды <br><br> Главная задача — показать, что мы не лучше, а что
+        <h1>tone of voice</h1>
+        <h4 class="last_last">Мы за то, чтобы каждый, кто хочет кататься на скейте мог делать это легко и совершенствоваться, искать компанию и делиться своим опытом с теми, кто разделяет его взгляды <br><br> Главная задача — показать, что мы не лучше, а что
 мы на одной волне и идём к одной цели: крутой компании и приятному общению. Поэтому
-мы общаемся с юзерами
-на ты и любим сокращать слова и использовать скейтерский сленг </h4>
+мы общаемся с юзерами <br>
+на ты и любим сокращать слова и использовать скейтерский сленг. </h4>
       </div>
 
       <div class="last_screen">
-        <img src="images/last_logo.png" class="last_logo" width="1148" height="212" alt="">
         <h3 class="last_text">Are you regular or Goofy?</h3>
+        <img src="images/last_logo.svg" class="last_logo" alt="">
       </div>
 
     </div>
