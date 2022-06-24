@@ -6,41 +6,88 @@
     <link rel="stylesheet" href="css/master.css">
     <title>Goofy</title>
   </head>
-  <body>
+  <body class="landing">
     <div class="landing_first">
-      <div class="menubar">
-        <a href="#">о проекте</a>
-        <a href="styleguide.html">стайлгайд</a>
-        <img src="images/menu_logo.png" width="45" height="19" alt="">
-        <a href="#">команда</a>
-        <a href="#">войти</a>
-      </div>
+
       <div class="first_call">
+        <button type="button" name="button">Перейти в Goofy<img class="arrow_black" src='images/arrow_black.svg'/></button>
 
-        <img class="globus_big" src="images/globus_big.png" width="1367.09" height="866.58" alt="">
-        <img class="main_logo" src="images/main_logo.png" width="576" height="141" alt="">
+        <img class="globus_big" src="images/globus_big.svg" alt="">
+        <img class="first_photo_big" src="images/first_photo_big.png" width="720" height="797" alt="">
         <img class="globus_medium" src="images/globus_medium.png" width="972" height="838" alt="">
-        <img class="main_logo_medium" src="images/main_logo_medium.png" width="905" height="124" alt="">
         <img class="globus_little" src="images/globus_little.png" width="318" height="305" alt="">
-        <img class="main_logo_little" src="images/main_logo_little.png" width="576" height="141" alt="">
 
-        <p class="first_text">Присоединяйся</p>
-        <p class="second_text">к скейтерскому коммьюнити</p>
-        <button type="button" name="button">:: Присоединиться ::</button>
+        <h2 class="first_text">настрой</h2>
+        <h2 class="second_text">свою скейтерскую</h2>
+        <h2 class="third_text">жизнь</h2>
+
+        <img class="main_logo" src="images/main_logo.svg" alt="">
+
+        <p>Сборник спотов твоего города, предстоящих ивентов и гайдов по трюкам</p>
       </div>
     </div>
 
     <div class="landing_second">
-      <div class="peace"> <img src="images/peace.png" width="121" height="159.63" alt=""> </div>
-      <p class="third_text">GOOFY — про то, как взять в руки скейт и пойти кататься прямо сейчас, не боясь сделать первые шаги в скейтбординге</p>
-      <div class="questions">
-        <p>Не знаешь, где кататься и как искать споты?</p>
-        <p>Не можешь найти компанию для катания?</p>
-        <p>С трудом даются базовые трюки?</p>
+      <div class="landing_second_text">
+        <h2 class="">мы знаем, что начинающим <br> быть трудно, и поможем</h2>
+        <h2 class="text_second">преодолеть страх нового</h2>
+      </div>
+
+      <div class="cards_container">
+
+        <div class="event">
+          <div class="card events_photo" style="background: url('images/events_photo.png')"></div>
+          <div class="card events_text">
+            <p class="events_big_text">Катайся, чтобы знакомиться</p>
+            <p class="events_big_text_down">и знакомься, <br> чтобы кататься</p>
+            <p class="events_little_text">Посмотреть ближайшие ивенты<img class="arrow_white" src='images/arrow_white.svg'/></p>
+          </div>
+        </div>
+        <div class="spot">
+          <div class="card_2 spot_photo" style="background: url('images/spot_photo.png')"></div>
+          <div class="card_2 spot_text">
+            <p class="spot_big_text">Открывай новые споты</p>
+            <p class="spot_big_text_down">для себя</p>
+            <p class="spot_big_text_last">и для других</p>
+            <p class="spot_little_text">В разделе «Споты»<img class="arrow_white" src='images/arrow_white.svg'/></p>
+          </div>
+        </div>
+        <div class="trick">
+          <div class="card_3 trick_text">
+            <p class="trick_big_text">Находи туториалы с трюками любого уровня </p>
+          </div>
+          <div class="card_4 trick_photo" style="background: url('images/trick_photo.png')"></div>
+        </div>
+
       </div>
     </div>
 
-    <div class="second_call">
+
+    <div class="landing_third">
+      <div class="event_go">
+        <h2>ходи на ивенты <br> и знакомься с другими скейтерами</h2>
+        <img src="images/event_go.svg" alt="">
+      </div>
+      <div class="event_create">
+        <h2>или создавай свои ивенты и свою тусовку</h2>
+        <div class="event_create_text">
+          <p><img class="stars" src='images/star_1.svg'/> адрес <img class="stars" src='images/star_2.svg'/> описание <br><br> метро <img class="stars" src='images/star_3.svg'/> название ивента <br><br> дата и время  <img class="stars" src='images/star_4.svg'/> уровень</p>
+        </div>
+        <button type="button" name="button">Иду!<img class="arrow_black" src='images/arrow_black.svg'/></button>
+      </div>
+    </div>
+
+    <div class="landing_forth">
+      <h2 class="trick_text_two">учи новые трюки <br> по проверенным туториалам</h2>
+      <img class="trick_pic" src="images/tutor_photo.png" alt="">
+
+      <h2 class="level_text">совершенствуйся и переходи <br> на новый уровень</h2>
+      <img class="level_pic" src="images/level_photo.svg" alt="">
+    </div>
+
+
+
+    <!-- <div class="second_call">
       <p class="second_p">Не бойся того, что только начинаешь — мы сделаем твой путь проще</p>
       <button type="button" name="button">:: Начать путь ::</button>
         <div class="photo_globus">
@@ -120,7 +167,7 @@
           <p class="f_light">fuck those, who use this, better find our telegram <br> @goofster</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </body>
 </html>
