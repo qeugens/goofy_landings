@@ -175,12 +175,43 @@
     }
 
  @media only screen and (max-device-width: 480px) {
+   h2 {
+     font-size: 32px;
+     line-height: 38px;
+   }
+   .first_photo_medium {
+     display: none;
+   }
    .globus_big {
      display: none;
    }
    .globus_medium {
+     display: none;
+   }
+   .globus_little {
      display: block;
-     padding-top: 120px;
+   }
+   .second_text {
+     width: 550px;
+   }
+   .third_text {
+     top: 300px;
+   }
+   .main_logo {
+     left: 30%;
+   }
+   .first_call p {
+     left: 30%;
+     width: 304px;
+     margin-top: 10px;
+   }
+   .first_call button {
+     left: 30%;
+   }
+
+
+   .second_text {
+     width:
    }
    .third_text {
      font-size: 32px;
