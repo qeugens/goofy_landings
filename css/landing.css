@@ -41,8 +41,15 @@ p {
   margin: 20px auto;
 }
 .first_photo_big {
+  display: block;
   position: absolute;
   top: 20px;
+  right: 0px;
+}
+.first_photo_medium {
+  display: none;
+  position: absolute;
+  top: 0px;
   right: 0px;
 }
 .globus_medium {
@@ -93,10 +100,11 @@ p {
 .landing_second_text {
   display: block;
   margin: 170px 200px;
-  width: 2000px;
+  width: 900px;
 }
 .text_second {
   margin-left: 430px;
+  width: 831px;
 }
 
 /* карточки */
@@ -219,6 +227,9 @@ p {
   margin-left: 8px;
 }
 
+
+
+
 .landing_third {
   display: flex;
   flex-direction: row;
@@ -286,7 +297,12 @@ p {
   margin-top: 150px;
   text-align: center;
 }
-.trick_pic {
+.trick_pic_medium {
+  display: block;
+  margin: 60px 20px;
+}
+.trick_pic_big {
+  display: none;
   margin: 60px 80px;
 }
 .level_text {
@@ -329,8 +345,13 @@ p {
   padding-left: 480px;
   padding-bottom: 280px;
 }
-.landing_sixth img {
+.last_photo_big {
+  display: block;
   margin: 80px;
+}
+.last_photo_medium {
+  display: none;
+  margin: 20px;
 }
 .last_text {
   margin-top: 100px;
@@ -378,6 +399,9 @@ p {
   height: 52px;
   margin: 20px;
 }
+.collab_right_medium {
+  display: none;
+}
 .collab_second {
   display: flex;
   flex-direction: row;
@@ -421,7 +445,7 @@ p {
   font-size: 23px;
   line-height: 32px;
   color: #898989;
-  margin: 30px 390px;
+  margin: 30px 0;
 }
 .sub_button {
   width: 360px;
@@ -446,7 +470,10 @@ p {
   justify-content: space-between;
   width: 711px;
 }
-.footer img {
+.fat_logo_big {
   display: block;
   margin: 0px auto;
+}
+.fat_logo_medium {
+  display: none;
 }

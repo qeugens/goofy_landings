@@ -5,11 +5,37 @@
    .globus_medium {
      display: block;
    }
-   .main_logo {
+   .first_photo_big {
      display: none;
    }
-   .main_logo_medium {
+   .first_photo_medium {
      display: block;
+   }
+   .first_text {
+     left: 20px;
+     top: 205px;
+   }
+   .second_text {
+     top: 253px;
+     width: 378px;
+     left: 100px;
+   }
+   .third_text {
+     left: 251px;
+     top: 350px;
+     display: block;
+   }
+   .first_call p {
+     left: 20px;
+   }
+   .main_logo {
+     left: 20px;
+     top: 410px;
+   }
+   .first_call button {
+     position: absolute;
+     top: 600px;
+     left: 20px;
    }
    .photo_globus_big {
      display: none;
@@ -17,100 +43,118 @@
    .photo_globus_medium {
      display: block;
    }
-   .third_graf_big {
-     display: none;
+   .landing_second_text {
+     margin-top: 170px;
+     margin-bottom: 170px;
+     margin-left: 80px;
    }
-   .third_graf_medium {
-     display: block;
-   }
-   .third_graf {
-     margin: -400px 600px;
-   }
-   .pro_graf_big {
-     display: none
-   }
-   .pro_graf_medium {
-     display: block;
-   }
-   .forth_call {
-     width: 1000px;
-     height: 557px;
-     background-image: url(../images/forth_call_medium.png);
-   }
-   .first_call p {
-     font-size: 38px;
-     left: 42%;
-   }
-   .first_text {
-     left: 40%;
-   }
-   .first_call button {
-     left: 33%;
-   }
-   .third_text {
-     width: 820px;
-     font-size: 38px;
-   }
-   .questions {
-     width: 80%;
-   }
-   .questions p {
-     font-size: 28px;
-     line-height: 35px;
-     width: 180px;
-   }
-   .second_p {
-     font-size: 38px;
-     width: 745px;
-   }
-   .photo_globus_medium {
-     margin-left: -155px;
-   }
-   .globus_pros {
-     width: 332px;
-     margin-left: 40px;
-     margin-top: -650px;
-   }
-   .globus_pros p {
-     font-size: 28px;
-   }
-   .tabloids {
-     width: 90%;
-   }
-   .tabloid_bold {
-     font-size: 65px;
-   }
-   .tabloid_light {
-     font-size: 25px;
-     width: 269px;
-   }
-   .width_tab {
-     width: 431px;
-   }
-   .third_p {
-     font-size: 38px;
-     width: 547px;
-   }
-   .third_graf_medium {
-     margin: 100px 30px;
-   }
-   h1 {
-     font-size: 65px;
-   }
-   .pro_text p {
-     font-size: 28px;
-     width: 500px;
-     margin-top: 80px;
-   }
-   .forth_call h1 {
-     width: 629px;
-   }
-   .forth_call p {
-     font-size: 38px;
-   }
- }
-
-
+   .text_second {
+    margin-left: 230px;
+    width: 831px;
+    }
+    .event {
+      flex-direction: column;
+    }
+    .card {
+      width: 900px;
+    }
+    .card_2 {
+      width: 900px;
+    }
+    .card_3 {
+      width: 900px;
+    }
+    .card_4 {
+      width: 900px;
+    }
+    .spot {
+      flex-direction: column;
+    }
+    .trick {
+      flex-direction: column;
+    }
+    .landing_third {
+      flex-direction: column;
+    }
+    .event_go {
+      width: 100%;
+    }
+    .event_create {
+      width: 100%;
+    }
+    .landing_forth {
+      margin-top: 900px;
+    }
+    .trick_pic_big {
+      display: none;
+    }
+    .trick_pic_medium {
+      display: block;
+    }
+    .level_pic {
+      margin: 60px 200px;
+    }
+    .frame_circle {
+      display: none;
+    }
+    .frame_container {
+      display: none;
+    }
+    .frame_stuffing_spot {
+      margin-top: 150px;
+    }
+    .frame_text_first {
+      padding-left: 0px;
+      margin-left: 40px;
+    }
+    .frame_stuffing_spot img {
+      padding-left: 0px;
+      margin-left: 100px;
+    }
+    .frame_stuffing_figures img {
+      margin-left: -150px;
+    }
+    .frame_stuffing_hurry img {
+      padding-top: 80px;
+      padding-left: 230px;
+      padding-bottom: 280px;
+    }
+    .last_photo_big {
+      display: none;
+    }
+    .last_photo_medium {
+      display: block;
+    }
+    .last_text {
+      margin-left: 50px;
+    }
+    .third_last_text  {
+      margin-left: 700px;
+    }
+    .collab_text {
+      width: 691px;
+    }
+    .collab_right_big {
+      display: none;
+    }
+    .collab_right_medium {
+      display: block;
+    }
+    .collab_second_left {
+      width: 690px;
+    }
+    .collab_second_right {
+      width: 281px;
+    }
+    .footer_text_right {
+      width: 486px;
+    }
+    .fat_logo_big {
+      display: none;
+    }
+    .fat_logo_medium {
+      display: block;
+    }
 
  @media only screen and (max-device-width: 480px) {
    .globus_big {
