@@ -46,10 +46,10 @@
    .landing_second_text {
      margin-top: 170px;
      margin-bottom: 170px;
-     margin-left: 80px;
+     margin-left: 50px;
    }
    .text_second {
-    margin-left: 230px;
+    margin-left: 210px;
     width: 831px;
     }
     .event {
@@ -78,6 +78,23 @@
     }
     .event_go {
       width: 100%;
+    }
+    .event_go h2 {
+      width: 850px;
+      margin-left: 150px;
+    }
+    .event_go img {
+      margin-left: 160px;
+    }
+    .event_create h2 {
+      width: 711px;
+      margin-left: 150px;
+    }
+    .event_create_text {
+      margin-left: 220px;
+    }
+    .event_create button {
+      margin-left: 350px;
     }
     .event_create {
       width: 100%;
@@ -154,6 +171,7 @@
     }
     .fat_logo_medium {
       display: block;
+      padding-top: 20px;
     }
 
  @media only screen and (max-device-width: 480px) {
