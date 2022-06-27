@@ -18,6 +18,10 @@ button {
 button:hover {
   opacity: .7;
 }
+a {
+  text-decoration: none;
+  color: #151921;
+}
 h2 {
   font-family: 'Bold';
   font-size: 48px;
