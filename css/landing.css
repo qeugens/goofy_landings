@@ -1,6 +1,6 @@
-html {
+/* html {
   overflow-x: hidden;
-}
+} */
 .landing {
   background: #F8F5F1;
   width: 100vw;
@@ -324,10 +324,15 @@ p {
   width: 100vw;
   height: 100vh;
   top: 0;
+  vertical-align: baseline;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .frame_circle {
   width: 100vw;
-  background: transparent;
+  position: absolute;
 }
 .frame_text_first {
   width: 524px;
